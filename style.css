@@ -336,6 +336,9 @@ a {
 .cite {
   line-height: 0.9;
 }
+.cite span {
+  display: block;
+}
 .hover-triangle {
   pointer-events: none;
   width: 1.8rem rem;
@@ -479,4 +482,21 @@ a {
   bottom: 0;
   left: 0;
   width: 33%;
+}
+.drift-controller-icon {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+}
+.drift-controller-icon button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(56, 132, 217);
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 6px, rgb(0 0 0 / 20%) 0px 2px 24px;
+  transition: all 0.4s ease;
 }
