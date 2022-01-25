@@ -103,6 +103,9 @@
     text-align: center;
     gap: 15px;
   }
+  .input-wrapper {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 425px) {
   /*Big smartphones [426px -> 600px]*/
@@ -181,6 +184,9 @@
     width: 100vw;
     margin: 0 -16px;
   }
+  .nav-collapsed-wrapper {
+    height: calc(100vh - 165px);
+  }
 }
 @media only screen and (max-width: 375px) {
   /*Small smartphones [325px -> 425px]*/
@@ -190,5 +196,14 @@
   .box-flag {
     margin: 0 auto;
     margin-bottom: 15px;
+  }
+
+  @media only screen and (max-width: 320px) {
+    .input-wrapper {
+      width: 100%;
+    }
+    .input-wrapper a {
+      transform: translateX(-38px);
+    }
   }
 }
