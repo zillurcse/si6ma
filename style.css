@@ -134,19 +134,21 @@ a {
   margin-top: 60px;
 }
 .box-flag {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: #4090f7;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 250px;
+
   margin-bottom: 20px;
 }
 .box {
   padding: 0 40px;
   border-left: 1px solid #fff;
+}
+.box-flag img {
+  object-fit: cover;
+  object-position: center;
 }
 .sec-2-headding {
   font-size: 38px;
@@ -281,6 +283,14 @@ a {
 .sec-6-second-div-ch span {
   font-size: 24px;
   color: #37d08d;
+}
+.sec-6-second-div-ch ul {
+  font-size: 15px;
+  padding: 0 !important;
+  padding-left: 15px !important;
+}
+.sec-6-second-div-ch ul li {
+  margin-bottom: 8px;
 }
 .sec-6-second-div-ch p {
   color: #bcc5cc !important;
